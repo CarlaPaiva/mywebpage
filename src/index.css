@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  margin-top: 20px;
+  min-height: 100vh;
+}
+
+:root {
+  /* Backgrounds */
+  --color-bg: #f3f4fa;
+  --color-bg-surface: #ffffff;
+
+  /* Text */
+  --color-text-primary: #2a2a2a;
+  --color-text-secondary: #60636e;
+  --color-text-muted: #8a8d99;
+
+  /* Accent */
+  --color-accent: #42487d;
+  --color-accent-hover: #373d6b;
+
+  /* Borders */
+  --color-border: #d6d8e5;
+
+  /* Focus */
+  --color-focus-ring: rgba(66, 72, 125, 0.4);
+
+  /* Spacing (8px system) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+  --space-8: 96px;
+}
+
+[data-theme="dark"] {
+  /* Backgrounds */
+  --color-bg: #333333;
+  --color-bg-surface: #3d3d3d;
+
+  /* Text */
+  --color-text-primary: #eaeaea;
+  --color-text-secondary: #b5b5b5;
+  --color-text-muted: #8f8f8f;
+
+  /* Accent */
+  --color-accent: #6a70b8;
+  --color-accent-hover: #5a5fa3;
+
+  /* Borders */
+  --color-border: #4a4a4a;
+
+  /* Focus */
+  --color-focus-ring: rgba(106, 112, 184, 0.45);
+}
+
+body {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--color-accent);
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 3.2rem);
+  margin-bottom: var(--space-4);
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: var(--space-3);
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: var(--space-2);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--space-3);
+  max-width: 65ch;
+  color: var(--color-text-primary);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+button {
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+  background-color: var(--color-accent);
+  color: #ffffff;
+
+  border: none;
+  border-radius: 6px;
+  padding: var(--space-2) var(--space-4);
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--color-accent-hover);
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-focus-ring);
+}
+
+section {
+  padding-block: var(--space-7);
+}
