@@ -16,7 +16,7 @@ body {
 
 :root {
   /* Backgrounds */
-  --color-bg: #f2f4ff;
+  --color-bg: whitesmoke;
   --color-bg-surface: #ffffff;
 
   /* Text */
@@ -156,7 +156,6 @@ section {
   margin-inline: auto;
   padding-inline: var(--space-4);
 }
-
 
 .card {
   background-color: var(--color-bg-surface);
