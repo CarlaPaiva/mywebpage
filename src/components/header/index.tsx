@@ -34,7 +34,7 @@ const Header = () => {
           </li>
           <li title="Curriculum">
             <a
-              href="https://github.com/CarlaPaiva"
+              href="/CV_CarlaPaiva_EN.pdf"
               target="_blank"
               aria-label="Download my curriculum"
             >
