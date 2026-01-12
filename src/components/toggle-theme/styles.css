@@ -1,0 +1,7 @@
+.theme-toggle {
+  background-color: transparent !important;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: var(--space-2);
+}

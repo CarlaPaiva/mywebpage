@@ -116,6 +116,7 @@ a {
   color: var(--color-accent);
   text-decoration: underline;
   text-underline-offset: 3px;
+  transition: color 0.2s ease;
 }
 
 a:hover {
@@ -139,6 +140,14 @@ button {
 
 button:hover {
   background-color: var(--color-accent-hover);
+}
+
+button.button--ghost {
+  background: transparent;
+}
+
+button.button--ghost:hover {
+  background: transparent;
 }
 
 :focus-visible {

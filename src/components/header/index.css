@@ -14,3 +14,7 @@
   display: block;
   flex: 0 0 auto;
 }
+
+.theme {
+  margin-top: 15px;
+}
