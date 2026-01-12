@@ -156,7 +156,7 @@ button.button--ghost:hover {
 }
 
 section {
-  padding-block: var(--space-7);
+  padding-block: 1.5rem;
 }
 
 .container {

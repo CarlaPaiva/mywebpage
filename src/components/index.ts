@@ -1,1 +1,2 @@
-export * as Header from "./header/index";
+export * as Header from "./header";
+export * as About from "./about";

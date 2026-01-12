@@ -1,0 +1,19 @@
+.experience {
+  max-width: 65ch;
+}
+
+.experience__item {
+  margin-bottom: var(--space-5);
+}
+
+.experience__meta {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
+}
+
+.experience ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
