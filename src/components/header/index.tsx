@@ -13,7 +13,7 @@ const Header = () => {
       <div className="header">
         <h1>Carla Paiva</h1>
         {/* <h2>Fullstack Software Developer</h2> */}
-        <u className="header__icons">
+        <ul className="header__icons">
           <li title="LinkedIn">
             <a
               href="https://www.linkedin.com/in/carla-paiva/"
@@ -41,7 +41,7 @@ const Header = () => {
               <Curriculum />
             </a>
           </li>
-        </u>
+        </ul>
       </div>
     </div>
   );
